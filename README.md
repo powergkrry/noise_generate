@@ -5,6 +5,7 @@ This is the implementation of GCBD paper Using Keras. You can find the original 
 You can generate Noise block seperately by using generate_noise_patch.ipynb code.
 ### Sample images
 60079.png - From BSD300, https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/
+
 night.jpg - From https://www.flickr.com/people/52836039@N02/
 
 ## Execute the code(GCBD) with Jupyter notebook
@@ -17,6 +18,7 @@ You can change ```X_train``` and ```noise``` in train function to feed different
 
 ### Results
 ![Generated Images](https://github.com/powergkrry/noise_generate/blob/master/images/image_1600.png)
+
 The current model has an issue with mode collapse.
 
 # Version
